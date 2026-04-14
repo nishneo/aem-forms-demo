@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p93809-e1283055.adobeaemcloud.com/bin/franklin.delivery/nishneo/aem-forms-demo/main"
+    type: "markup"
+    suffix: ".html"
