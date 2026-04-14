@@ -1,9 +1,11 @@
 {
   "mappings": [
-    "/:/"
+    "/content/aem-forms-demo/:/",
+    "/content/aem-forms-demo/configuration:/.helix/config.json",
+    "/content/aem-forms-demo/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/",
-    "/content/dam/"
+    "/content/aem-forms-demo/",
+    "/content/dam/aem-forms-demo/"
   ]
 }
