@@ -1,0 +1,150 @@
+{
+  "templates": [
+    {
+      "name": "semaglutide-content-page",
+      "urls": [
+        "https://www.novomedlink.com/semaglutide/patient-safety.html",
+        "https://www.novomedlink.com/semaglutide/medicines.html"
+      ],
+      "description": "Semaglutide informational content page with hero banner, text sections, and resource links about patient safety topics",
+      "blocks": [
+        {
+          "name": "hero-safety",
+          "instances": [
+            ".random-background"
+          ]
+        },
+        {
+          "name": "columns-content",
+          "instances": [
+            ".bracket-slab-offset .cmp-container.flex",
+            ".bracket-article-description-left",
+            ".bracket-video-description-right",
+            ".bracket-video-description-left",
+            ".bracket-article-description-right"
+          ]
+        },
+        {
+          "name": "cards-resource",
+          "instances": [
+            ".semag-news-resource .resource"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Alert Banner",
+          "selector": ".cmp-experiencefragment--banner",
+          "style": "light-gray",
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-experiencefragment--banner .cmp-image__image",
+            ".cmp-experiencefragment--banner .cmp-text"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Hero",
+          "selector": ".random-background",
+          "style": null,
+          "blocks": [
+            "hero-safety"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Our Promise",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_1161268920",
+          "style": null,
+          "blocks": [
+            "columns-content"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Warning",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_996920350",
+          "style": null,
+          "blocks": [
+            "columns-content"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Video PSA",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_770053700_copy_",
+          "style": null,
+          "blocks": [
+            "columns-content"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Article",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_770053700_copy__841141511",
+          "style": null,
+          "blocks": [
+            "columns-content"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Video Dangers",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_770053700_copy__501416395",
+          "style": null,
+          "blocks": [
+            "columns-content"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-8",
+          "name": "Read Our Perspectives",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_770053700_copy__2087236365",
+          "style": "light-blue",
+          "blocks": [
+            "cards-resource"
+          ],
+          "defaultContent": [
+            ".bracket-article-description-right h2"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "News Resources",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_770053700",
+          "style": null,
+          "blocks": [
+            "cards-resource"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10",
+          "name": "CTA Banner",
+          "selector": "#node-content-novomedlink-en-semaglutide-patient-safety-jcr_content-root-slab_770053700_copy__1157007228",
+          "style": "navy-blue",
+          "blocks": [],
+          "defaultContent": [
+            "h2",
+            "a.button"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "semaglutide-medicines-page",
+      "urls": [
+        "https://www.novomedlink.com/semaglutide/medicines.html"
+      ],
+      "description": "Semaglutide medicines listing page with product cards, brand logos, safety information, and expandable ISI sections",
+      "blocks": []
+    }
+  ]
+}

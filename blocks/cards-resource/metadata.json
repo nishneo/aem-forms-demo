@@ -1,0 +1,27 @@
+{
+  "variantName": "cards-resource",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-16T10:28:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.novomedlink.com/semaglutide/patient-safety.html",
+    "originPage": "pharma patient safety landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "resource-grid",
+    "imagePattern": "large",
+    "structure": "image + title + description grid"
+  },
+  "reuseGuidance": {
+    "suitableFor": ["resource download grids", "news article listings", "PDF resource cards"],
+    "notSuitableFor": ["product showcase cards", "team member listings"]
+  },
+  "usage": {
+    "pagesUsing": ["/semaglutide/patient-safety"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-16T10:28:00.000Z"
+  }
+}

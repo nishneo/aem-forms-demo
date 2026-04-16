@@ -1,0 +1,27 @@
+{
+  "variantName": "hero-safety",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-16T10:28:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.novomedlink.com/semaglutide/patient-safety.html",
+    "originPage": "pharma patient safety landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "safety-hero",
+    "imagePattern": "large",
+    "structure": "heading + body text + CTA button"
+  },
+  "reuseGuidance": {
+    "suitableFor": ["pharmaceutical landing pages", "patient safety pages", "HCP content pages with background images"],
+    "notSuitableFor": ["minimal text-only heroes", "product showcase pages"]
+  },
+  "usage": {
+    "pagesUsing": ["/semaglutide/patient-safety"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-16T10:28:00.000Z"
+  }
+}
