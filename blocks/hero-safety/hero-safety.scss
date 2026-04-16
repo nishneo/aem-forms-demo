@@ -1,0 +1,77 @@
+/**
+ * Hero Safety block
+ * Extends phx Hero component CSS with EDS-specific layout.
+ *
+ * When phx-style-system is available on npm:
+ * @forward "@novonordiskit/phx-style-system/components/css/Hero";
+ */
+
+// EDS-specific extensions
+.hero-safety-container .hero-safety-wrapper {
+    max-width: unset;
+    padding: 0;
+}
+
+.hero-safety {
+    position: relative;
+    padding: var(--spacing-40) var(--spacing-24);
+    min-height: 300px;
+    overflow: hidden;
+
+    h1 {
+        max-width: var(--layout-max-width);
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--color-text-inverse);
+        font-family: var(--font-family-heading);
+        font-size: var(--font-size-heading-xl);
+        font-weight: var(--font-weight-regular);
+        line-height: var(--line-height-heading-xl);
+    }
+
+    p {
+        max-width: var(--layout-max-width);
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--color-text-inverse);
+        font-family: var(--font-family-primary);
+        font-size: var(--font-size-body-md);
+        line-height: var(--line-height-body-md);
+    }
+
+    a {
+        display: inline-block;
+        padding: var(--component-button-padding-vertical-medium) var(--component-button-padding-horizontal-medium);
+        background-color: var(--component-button-background-hero);
+        color: var(--component-button-color-hero);
+        font-size: var(--component-button-font-size);
+        font-weight: var(--component-button-font-weight);
+        text-decoration: none;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+            background-color: var(--component-button-background-hero-hover);
+        }
+    }
+
+    // Background image
+    picture {
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (width >= 900px) {
+    .hero-safety {
+        padding: var(--spacing-40) var(--spacing-32);
+    }
+}

@@ -1,0 +1,11 @@
+/**
+ * Typography bridge
+ * phx-style-system font-weight tokens are SCSS variables.
+ * This file bridges them to CSS custom properties for EDS blocks.
+ */
+:root {
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}

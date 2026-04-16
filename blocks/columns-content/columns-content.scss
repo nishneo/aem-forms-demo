@@ -2,6 +2,7 @@
  * Columns Content block
  * No phx component equivalent — uses CSS custom properties directly.
  */
+
 .columns-content > div {
     display: flex;
     flex-direction: column;
@@ -58,10 +59,10 @@
     font-weight: var(--component-button-font-weight);
     text-decoration: none;
     transition: background-color 0.2s ease;
-}
 
-.columns-content a:hover {
-    background-color: var(--component-button-background-primary-hover);
+    &:hover {
+        background-color: var(--component-button-background-primary-hover);
+    }
 }
 
 @media (width >= 900px) {

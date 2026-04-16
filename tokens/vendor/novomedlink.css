@@ -1,0 +1,132 @@
+/**
+ * NovoMedLink Brand Tokens
+ * Mapped from live site --nni-hcp--* values to phx-style-system --color-* / --component-* naming.
+ * This is a temporary vendor file until official phx-style-system brand CSS is available.
+ * Scoped to [data-brand="novomedlink"] per Phoenix theme model.
+ */
+
+[data-brand="novomedlink"] {
+    /* ========================================
+     * COLOR TOKENS
+     * ======================================== */
+
+    /* Backgrounds */
+    --color-background-primary: #fff;
+    --color-background-secondary: #f4f5f6;
+    --color-background-tertiary: #eff0f2;
+    --color-background-inverse: #001965;
+    --color-background-accent: #005ad2;
+    --color-background-light-blue: #f1f7ff;
+    --color-background-ice-blue: #dff0f7;
+
+    /* Text */
+    --color-text-primary: #001965;
+    --color-text-secondary: #696969;
+    --color-text-inverse: #fff;
+    --color-text-link: #005ad2;
+    --color-text-link-hover: #005ad2;
+    --color-text-link-inverse: #fff;
+
+    /* Headings */
+    --color-heading-primary: #001965;
+    --color-heading-inverse: #fff;
+
+    /* Borders */
+    --color-border-primary: #dfe1e5;
+    --color-border-secondary: #c4c7cf;
+
+    /* ========================================
+     * COMPONENT TOKENS — BUTTONS
+     * ======================================== */
+
+    /* Primary button */
+    --component-button-background-primary: #005ad2;
+    --component-button-background-primary-hover: #0f448a;
+    --component-button-color-primary: #fff;
+    --component-button-border-radius: 0px;
+    --component-button-padding-vertical-medium: 12px;
+    --component-button-padding-horizontal-medium: 24px;
+    --component-button-font-weight: 400;
+    --component-button-font-size: 16px;
+
+    /* Secondary / light button */
+    --component-button-background-secondary: #eff0f2;
+    --component-button-background-secondary-hover: #dfe1e5;
+    --component-button-color-secondary: #005ad2;
+
+    /* Hero button (semi-transparent) */
+    --component-button-background-hero: rgba(15, 28, 51, 0.6549);
+    --component-button-background-hero-hover: rgba(15, 28, 51, 0.7216);
+    --component-button-color-hero: #fff;
+
+    /* Link button */
+    --component-button-color-link: #005ad2;
+    --component-button-color-link-inverse: #fff;
+
+    /* ========================================
+     * COMPONENT TOKENS — CARDS
+     * ======================================== */
+    --component-card-border-radius: 15px;
+    --component-card-background: var(--color-background-primary);
+    --component-card-background-resource: #eff0f2;
+
+    /* Product card accent colors */
+    --component-card-accent-wegovy: #fcf3f9;
+    --component-card-accent-ozempic: #fdf3f0;
+    --component-card-accent-rybelsus: #f3f4f9;
+
+    /* ========================================
+     * COMPONENT TOKENS — NAVIGATION
+     * ======================================== */
+    --component-nav-background-mobile: #eff0f2;
+    --component-nav-background-desktop: rgba(239, 240, 242, 0.9);
+    --component-nav-background-hover: #dfe1e5;
+    --component-nav-text-color: #001965;
+    --component-nav-icon-color: #005ad2;
+    --component-nav-active-color: #001965;
+
+    /* ========================================
+     * TYPOGRAPHY TOKENS
+     * ======================================== */
+    --font-family-primary: 'noto-sans', 'Noto Sans', Arial, Helvetica, Verdana, sans-serif;
+    --font-family-heading: 'noto-sans', 'Noto Sans', Arial, Helvetica, Verdana, sans-serif;
+
+    /* Heading sizes */
+    --font-size-heading-xl: 36px;
+    --font-size-heading-lg: 28px;
+    --font-size-heading-md: 28px;
+    --font-size-heading-sm: 16px;
+
+    /* Heading line heights */
+    --line-height-heading-xl: 45px;
+    --line-height-heading-lg: 39px;
+    --line-height-heading-md: 39px;
+    --line-height-heading-sm: 20.8px;
+
+    /* Body sizes */
+    --font-size-body-lg: 18px;
+    --font-size-body-md: 16px;
+    --font-size-body-sm: 14px;
+    --font-size-body-xs: 12px;
+
+    /* Body line heights */
+    --line-height-body-lg: 28px;
+    --line-height-body-md: 24px;
+    --line-height-body-sm: 20px;
+    --line-height-body-xs: 16px;
+
+    /* ========================================
+     * LAYOUT TOKENS
+     * ======================================== */
+    --layout-max-width: 1200px;
+    --layout-gutter: 24px;
+    --layout-gutter-desktop: 32px;
+}
+
+/* Dark theme overrides */
+[data-brand="novomedlink"][data-theme="dark"] {
+    --color-background-primary: #001965;
+    --color-text-primary: #fff;
+    --color-heading-primary: #fff;
+    --color-text-link: #fff;
+}

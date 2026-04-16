@@ -5,6 +5,7 @@
  * When phx-style-system is available on npm:
  * @forward "@novonordiskit/phx-style-system/components/css/Card";
  */
+
 .cards-resource > ul {
     list-style: none;
     margin: 0;
@@ -23,28 +24,28 @@
 
 .cards-resource .cards-resource-card-body {
     margin: var(--spacing-16);
-}
 
-.cards-resource .cards-resource-card-body p {
-    color: var(--color-text-primary);
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-body-sm);
-    line-height: var(--line-height-body-sm);
-}
+    p {
+        color: var(--color-text-primary);
+        font-family: var(--font-family-primary);
+        font-size: var(--font-size-body-sm);
+        line-height: var(--line-height-body-sm);
+    }
 
-.cards-resource .cards-resource-card-body strong {
-    color: var(--color-heading-primary);
-    font-weight: var(--font-weight-bold);
-}
+    strong {
+        color: var(--color-heading-primary);
+        font-weight: var(--font-weight-bold);
+    }
 
-.cards-resource .cards-resource-card-body a {
-    color: var(--color-text-link);
-    text-decoration: none;
-    font-weight: var(--font-weight-regular);
-}
+    a {
+        color: var(--color-text-link);
+        text-decoration: none;
+        font-weight: var(--font-weight-regular);
 
-.cards-resource .cards-resource-card-body a:hover {
-    text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .cards-resource .cards-resource-card-image {

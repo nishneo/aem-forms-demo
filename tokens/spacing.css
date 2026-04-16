@@ -1,0 +1,21 @@
+/**
+ * Spacing bridge
+ * phx-style-system spacing tokens are SCSS variables.
+ * This file bridges them to CSS custom properties for EDS blocks.
+ */
+:root {
+    --spacing-0: 0;
+    --spacing-4: 4px;
+    --spacing-8: 8px;
+    --spacing-12: 12px;
+    --spacing-16: 16px;
+    --spacing-20: 20px;
+    --spacing-24: 24px;
+    --spacing-32: 32px;
+    --spacing-40: 40px;
+    --spacing-48: 48px;
+    --spacing-56: 56px;
+    --spacing-64: 64px;
+    --spacing-80: 80px;
+    --spacing-96: 96px;
+}
