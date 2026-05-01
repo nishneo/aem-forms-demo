@@ -1,6 +1,7 @@
 {
   "mappings": [
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/content/aem-boilerplate/:/"
   ],
   "includes": [
@@ -12,5 +13,14 @@
     "/content/",
     "/content/dam/"
 >>>>>>> 16ea649 (Initial commit)
+=======
+    "/content/aem-forms-demo/:/",
+    "/content/aem-forms-demo/configuration:/.helix/config.json",
+    "/content/aem-forms-demo/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/aem-forms-demo/",
+    "/content/dam/aem-forms-demo/"
+>>>>>>> 6306662 (Update paths.json with new mappings and includes)
   ]
 }
